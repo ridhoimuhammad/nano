@@ -11,6 +11,7 @@
 // }
 // */
 ///////////////////////////////
+// https://jsbin.com/vanogiz/edit?js,console
 // MELAWAN LUPA
 //////////////////////// cobaulang_live.js
 var siswa1 = {
