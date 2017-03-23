@@ -25,24 +25,95 @@ me-return "SALAH".
 */
 
 function hackFox(num) {
-if(num%2!==0&&num%3!==0){
-return "SALAH";
-}
-  else if(num%2===0){
-  return "HACK";
-}
-  else if (num%3!==1){
-  return "FOX";
-}
-  else if (num%2&&num%3!==1){
+  function hackFox(num) {
+
+  if ((num%2===0) && (num%3===0)){
   return "HACKFOX";
   }
-}
-console.log(hackFox(5)); // "SALAH"
-console.log(hackFox(2)); // "HACK"
-console.log(hackFox(8)); // "HACK"
-console.log(hackFox(9)); // "FOX"
-console.log(hackFox(9)); // "FOX"
-console.log(hackFox(12)); // "HACKFOX"
-console.log(hackFox(18)); // "HACKFOX"
-console.log(hackFox(131)); // "SALAH"
+  else if(num%2===0){
+  return "HACK";
+  }
+  else if (num%3===0){
+  return "FOX";
+  }else if ((num%2!==0) && (num%3!==0)){
+  return "SALAH";
+  }
+
+  }
+  console.log(hackFox(5)); // "SALAH"
+  console.log(hackFox(2)); // "HACK"
+  console.log(hackFox(8)); // "HACK"
+  console.log(hackFox(9)); // "FOX"
+  console.log(hackFox(9)); // "FOX"
+  console.log(hackFox(12)); // "HACKFOX"
+  console.log(hackFox(18)); // "HACKFOX"
+  console.log(hackFox(131)); // "SALAH"0&&num%3!==0){
+    function hackFox(num) {
+
+    if ((num%2===0) && (num%3===0)){
+    return "HACKFOX";
+    }
+    else if(num%2===0){
+    return "HACK";
+    }
+    else if (num%3===0){
+    return "FOX";
+    }else if ((num%2!==0) && (num%3!==0)){
+    return "SALAH";
+    }
+
+    }
+    console.log(hackFox(5)); // "SALAH"
+    console.log(hackFox(2)); // "HACK"
+    console.log(hackFox(8)); // "HACK"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(12)); // "HACKFOX"
+    console.log(hackFox(18)); // "HACKFOX"
+    console.log(hackFox(131)); // "SALAH"
+    function hackFox(num) {
+
+    if ((num%2===0) && (num%3===0)){
+    return "HACKFOX";
+    }
+    else if(num%2===0){
+    return "HACK";
+    }
+    else if (num%3===0){
+    return "FOX";
+    }else if ((num%2!==0) && (num%3!==0)){
+    return "SALAH";
+    }
+
+    }
+    console.log(hackFox(5)); // "SALAH"
+    console.log(hackFox(2)); // "HACK"
+    console.log(hackFox(8)); // "HACK"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(12)); // "HACKFOX"
+    console.log(hackFox(18)); // "HACKFOX"
+    console.log(hackFox(131)); // "SALAH"
+    function hackFox(num) {
+
+    if ((num%2===0) && (num%3===0)){
+    return "HACKFOX";
+    }
+    else if(num%2===0){
+    return "HACK";
+    }
+    else if (num%3===0){
+    return "FOX";
+    }else if ((num%2!==0) && (num%3!==0)){
+    return "SALAH";
+    }
+
+    }
+    console.log(hackFox(5)); // "SALAH"
+    console.log(hackFox(2)); // "HACK"
+    console.log(hackFox(8)); // "HACK"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(9)); // "FOX"
+    console.log(hackFox(12)); // "HACKFOX"
+    console.log(hackFox(18)); // "HACKFOX"
+    console.log(hackFox(131)); // "SALAH"
