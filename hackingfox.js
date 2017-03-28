@@ -18,7 +18,7 @@ pemanasan awal.
 Tersedia sebuah function hackFox yang mengandung satu parameter berupa angka.
 1. Jika angka tidak habis dibagi 2 atau 3, maka function akan
 me-return "SALAH".
-2. Jika angka habis dibagi 2, maka returnf "HACK"
+2. Jika angka habis dibagi 2, maka return "HACK"
 3. Jika angka habis dibagi 3, maka return "FOX"
 4. Jika angka habis dibagi 2 dan 3, maka return "HACKFOX"
 

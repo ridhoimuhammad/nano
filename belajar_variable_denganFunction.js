@@ -1,4 +1,4 @@
-funtion tampil(){
+function tampil(){
   //membuat variable
 number1 = 33;
 number2 = 6;
@@ -16,3 +16,4 @@ console.log('boolean 1 = ' +boolean1);
 console.log('boolean 2 = ' +boolean2);
 }
 tampil();
+//https://jsbin.com/yivujij/edit?js,console

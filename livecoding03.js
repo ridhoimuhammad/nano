@@ -43,8 +43,6 @@ function serangan(attack1) {
     console.log("You are Dead!");
 
   }
-
-
 }
 
 serangan(21); // One Man Down!
